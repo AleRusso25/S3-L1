@@ -46,6 +46,10 @@ let num = 0
 /* ESERCIZIO 6 (map)
   Scrivi una funzione che, dato un array di soli numeri e un numero n come parametri, ritorni un secondo array con tutti i valori del precedente incrementati di n
 */
+const n = Array3.length
+for (let i=0; i = n ;i++) {
+const Array4= Array3.map (Array3=>{return Array3+n})}
+console.log (Array4)
 
 /* ESERCIZIO 7 (map)
   Scrivi una funzione che, dato un array di stringhe, ritorni un nuovo array contenente le lunghezze delle rispettive stringhe dell'array di partenza
